@@ -1,0 +1,76 @@
+country_decisions = {
+	mjl_change_muslim_school = {
+		potential = {
+			ai = no
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		allow = {
+			hidden_trigger = {
+				NOT = { has_country_flag = mjl_1444_change_school }
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_change_muslim_school_trigger_tooltip
+				NOT = { has_country_modifier = change_school_modifier }
+			}
+			prestige = 0
+		}
+		effect = {
+			custom_tooltip = mjl_change_muslim_school_decision_tt
+			set_country_flag = mjl_1444_change_school
+			add_prestige = -50
+			country_event = { id = mjl_events.5 }
+		}
+	}
+	
+	#ARUMBA LINES
+	dev_sum_clicks_decision = {
+		major = yes
+		potential = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = dev_sum_clicks_decision_tooltip
+				always = no
+			}
+		}
+		effect = {
+		}
+	}
+	
+	# PR decision to check if critical events have fired
+	PR_critical_events = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = PR_radical_reform_decision
+				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_military_reform_decision
+				NOT = { has_country_flag = military_reform }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_commandant_decision
+				NOT = { has_country_flag = commandant }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_grand_captain_decision
+				NOT = { has_country_flag = grand_captain }
+			}
+			always = no
+		}
+		effect = {
+		}
+	}
+}
