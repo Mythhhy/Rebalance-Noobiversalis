@@ -1,0 +1,38 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = shandong_culture
+capital = 690	#Qingzhou
+add_accepted_culture = zhongyuan
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.502
+}
+
+1416.1.1 = {
+	monarch = {
+		name = "Ciwei"
+		dynasty = "Qi"
+		adm = 6
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = calm_personality
+	add_ruler_personality = careful_personality
+	add_ruler_personality = silver_tongue_personality
+}
+
+1434.10.13 = {
+	heir = {
+		name = "Zhanyan"
+		dynasty = "Qi"
+		birth_date = 1434.8.13
+		death_date = 1470.1.2
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 6
+	}
+}

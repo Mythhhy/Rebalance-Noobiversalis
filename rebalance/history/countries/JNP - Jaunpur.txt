@@ -9,6 +9,9 @@ capital = 555	# Jaunpur
 fixed_capital = 555 # Cannot move capital away from this province & no power cost to move to it
 religious_school = hanafi_school
 add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
 
 change_estate_land_share = {
 	estate = estate_church

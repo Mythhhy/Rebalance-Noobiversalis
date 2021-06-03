@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = zhongyuan
+capital = 687	#Nanyang
+
+1422.1.1 = {
+	monarch = {
+		name = "Wan"
+		dynasty = "Tang"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}

@@ -1,0 +1,23 @@
+government = republic
+add_government_reform = merchants_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = chimin
+capital = 738 # Sakam
+add_accepted_culture = polynesian
+add_harmonized_religion = animism
+add_harmonized_religion = sunni
+
+1444.1.1 = {
+	monarch = {
+		name = "Koxinga"
+		dynasty = "Zheng"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = conqueror_personality
+	capital = 669	# Fuzhou
+}

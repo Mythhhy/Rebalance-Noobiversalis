@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = bai
+religion = buddhism
+technology_group = chinese
+capital = 661	# Dali
+
+1439.1.1 = {
+	monarch = {
+		name = "Youcheng"
+		dynasty = "Duan"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}

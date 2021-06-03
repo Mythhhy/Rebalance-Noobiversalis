@@ -1,0 +1,25 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = xibei
+capital = 689 # Fengyuan
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.502
+}
+
+1443.1.1 = {
+	monarch = {
+		name = "Zicheng"
+		dynasty = "Sun"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = tolerant_personality
+	capital = 700	# Xi'an
+}
+
+#1644.1.1 = { capital = 689 } # Fengyuan

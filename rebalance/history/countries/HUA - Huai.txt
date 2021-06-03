@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = hakka
+capital = 2158	#Shiukwan
+add_accepted_culture = chimin
+
+1444.1.1 = {
+	monarch = {
+		name = "Zhongxuan"
+		dynasty = "Hua"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+	capital = 670 #Ganzhou
+}
