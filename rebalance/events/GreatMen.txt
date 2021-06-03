@@ -984,7 +984,6 @@ country_event = {
 	
 	trigger = {
 		grand_captain = 3
-		NOT = { has_country_modifier = PR_grand_captain_cooldown }
 		NOT = { has_country_flag = grand_captain }
 	}
 	
@@ -1043,16 +1042,6 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = grand_captain
-	}
-	
-	option = {
-		name = "PR_grand_captain_cooldown_tooltip"	# PR advisor cooldown
-		ai_chance = {
-		}
-		add_country_modifier = {
-			name = "PR_grand_captain_cooldown"
-			duration = 7300
-		}
 	}
 }
 
@@ -1133,11 +1122,10 @@ country_event = {
 	id = 4116
 	title = "EVTNAME4116"
 	desc = "EVTDESC4116"
-	picture = Harambe_eventPicture
+	picture = ADVISOR_eventPicture
 	
 	trigger = {
 		commandant = 3
-		NOT = { has_country_modifier = PR_commandant_cooldown }
 		NOT = { has_country_flag = commandant }
 	}
 	
@@ -1197,16 +1185,6 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = commandant
-	}
-	
-	option = {
-		name = "PR_commandant_cooldown_tooltip"	# PR advisor cooldown
-		ai_chance = {
-		}
-		add_country_modifier = {
-			name = "PR_commandant_cooldown"
-			duration = 7300
-		}
 	}
 }
 
