@@ -30,6 +30,7 @@ christian = {
 		}
 		
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			diplomatic_reputation = 1
 			advisor_pool = 1
 		}
@@ -38,7 +39,7 @@ christian = {
 		
 		on_convert = {
 			change_religion = catholic
-			add_prestige = -100
+			add_prestige = -50
 			
 			remove_country_modifier = the_test_act
 			remove_country_modifier = superintendent_office
@@ -331,6 +332,7 @@ christian = {
 		}
 		
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			idea_cost = -0.1
 		}
 		
@@ -359,11 +361,12 @@ christian = {
 			catholic
 		}
 		country = {
-			shock_damage_received = -0.05
+			shock_damage_received = -0.15
 			global_heretic_missionary_strength = 0.02
 		}
 		
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			shock_damage_received = -0.025
 		}
 		
@@ -405,6 +408,7 @@ christian = {
 		}
 		
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			idea_cost = -0.1
 		}
 		
@@ -437,7 +441,7 @@ christian = {
 
 		on_convert = {
 			change_religion = protestant
-			add_prestige = -100
+			add_prestige = -50
 			remove_country_modifier = counter_reformation
 			remove_country_modifier = the_statue_in_restraint_of_appeals
 			remove_country_modifier = revocation_of_restraint_of_appeals
@@ -542,6 +546,7 @@ christian = {
 		}
 		
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			global_unrest = -1
 			advisor_cost = -0.1
 		}
@@ -556,7 +561,7 @@ christian = {
 		
 		on_convert = {
 			change_religion = reformed
-			add_prestige = -100
+			add_prestige = -50
 			remove_country_modifier = counter_reformation
 			remove_country_modifier = the_statue_in_restraint_of_appeals
 			remove_country_modifier = revocation_of_restraint_of_appeals
@@ -654,6 +659,7 @@ christian = {
 			tolerance_own = 1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			global_colonial_growth = 10
 			tolerance_own = 1
 		}
@@ -723,7 +729,7 @@ christian = {
 			}
 
 			icon_pancreator = {
-				development_cost = -0.10
+				development_cost = -0.1
 				build_cost = -0.1
 				
 				allow = {
@@ -793,6 +799,7 @@ christian = {
 			tolerance_own = 1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			siege_ability = 0.1
 			defensiveness = 0.1
 		}
@@ -1128,6 +1135,7 @@ muslim = {
 			heir_chance = 1.0
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			trade_efficiency = 0.1
 			heir_chance = 1.0
 		}
@@ -1149,6 +1157,7 @@ muslim = {
 			land_morale = 0.05
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			land_morale = 0.05
 			advisor_cost = -0.1
 		}
@@ -1170,6 +1179,7 @@ muslim = {
 			global_trade_goods_size_modifier = 0.1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			global_ship_cost = -0.1
 			advisor_cost = -0.1
 		}
@@ -1206,11 +1216,12 @@ eastern = {
 			advisor_cost = -0.15
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			development_cost = -0.1
 			diplomats = 1
 		}
 		on_convert = {
-			add_prestige = -100
+			add_prestige = -50
 			add_stability = -1
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1238,11 +1249,12 @@ eastern = {
 			land_morale = 0.05
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			horde_unity = 1
 			tolerance_own = 1
 		}
 		on_convert = {
-			add_prestige = -100
+			add_prestige = -50
 			add_stability = -1
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1270,11 +1282,12 @@ eastern = {
 			idea_cost = -0.1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			global_tax_modifier = 0.1
 			tolerance_heathen = 2
 		}
 		on_convert = {
-			add_prestige = -100
+			add_prestige = -50
 			add_stability = -1
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1295,9 +1308,10 @@ eastern = {
 		icon = 9
 		country = {
 			tolerance_heretic = 2
-			adm_tech_cost_modifier = -0.1
+			land_forcelimit_modifier = 0.10
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			adm_tech_cost_modifier = -0.1
 			stability_cost_modifier = -0.1
 		}
@@ -1316,6 +1330,7 @@ eastern = {
 			local_missionary_strength = -0.02
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			discipline = 0.05
 			global_unrest = -1
 		}
@@ -1349,6 +1364,7 @@ dharmic = {
 			brahmins_hindu_influence_modifier = 0.2
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			tolerance_heretic = 1
 			tolerance_heathen = 2
 		}
@@ -1357,7 +1373,7 @@ dharmic = {
 		
 		on_convert = {
 			change_religion = hinduism
-			add_prestige = -100
+			add_prestige = -50
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1382,6 +1398,7 @@ dharmic = {
 			land_morale = 0.1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			land_morale = 0.05
 			global_unrest = -1
 		}
@@ -1391,7 +1408,7 @@ dharmic = {
 		
 		on_convert = {
 			change_religion = sikhism
-			add_prestige = -100
+			add_prestige = -50
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1402,8 +1419,7 @@ dharmic = {
 		heretic = { MASANDIS }
 
 		date = 1499.01.01
-
-
+	}
 	
 	harmonized_modifier = harmonized_dharmic
 	
@@ -1425,6 +1441,7 @@ pagan = {
 			global_unrest = -1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			tolerance_own = 2
 			loot_amount = 0.25
 		}
@@ -1446,6 +1463,7 @@ pagan = {
 			local_missionary_strength = 0.02
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			tolerance_own = 2
 			loot_amount = 0.25
 		}
@@ -1462,14 +1480,13 @@ pagan = {
 			global_unrest = -1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			tolerance_own = 2
 			loot_amount = 0.25
 		}
 		province = {
 			local_missionary_strength = 0.02
 		}
-
-
 		
 		heretic = { BEAR_SPIRIT }	
 	}
@@ -1484,6 +1501,7 @@ pagan = {
 		}
 
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			tolerance_own = 1
 			global_autonomy = -0.05
 		}
@@ -1508,6 +1526,7 @@ pagan = {
 			burghers_influence_modifier = -0.05
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			land_morale = 0.05
 			raze_power_gain = 0.2
 		}
@@ -1533,6 +1552,7 @@ pagan = {
 			advisor_pool = 1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			advisor_pool = 1
 			stability_cost_modifier = -0.1
 		}
@@ -1555,6 +1575,7 @@ pagan = {
 			naval_forcelimit_modifier = 0.10
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			merc_maintenance_modifier = -0.1
 			galley_power = 0.2
 		}
@@ -1579,7 +1600,6 @@ pagan = {
 		heretic = { OLD_TENGRI }
 	}
 	
-	
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_pagan
 }
@@ -1599,6 +1619,7 @@ jewish_group = {
 			advisor_pool = 1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			advisor_pool = 1
 			advisor_cost = -0.1
 		}
@@ -1631,10 +1652,10 @@ zoroastrian_group = {
 			trade_efficiency = 0.1
 		}
 		country_as_secondary = {
+			cav_to_inf_ratio = 0.25
 			merchants = 1
 			tolerance_own = 1
 		}
-
 		
 		heretic = { MAZDAKI MANICHEAN }	
 	}

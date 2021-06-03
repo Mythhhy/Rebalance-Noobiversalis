@@ -1,0 +1,5 @@
+# Africans
+CHW = "countries/Bachwezi.txt"
+GZW = "countries/Great Zimbabwe.txt"
+
+

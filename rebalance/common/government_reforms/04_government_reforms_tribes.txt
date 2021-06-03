@@ -303,7 +303,16 @@ tribe_becomes_monarchy_reform = {
 		if = {
 			limit = {
 				technology_group = nomad_group
-				religion_group = christian
+				OR = {
+					religion_group = christian
+					secondary_religion = catholic
+					secondary_religion = protestant
+					secondary_religion = hussite
+					secondary_religion = reformed
+					secondary_religion = anglican
+					secondary_religion = orthodox
+					secondary_religion = coptic
+				}
 			}
 			change_technology_group = eastern
 			change_unit_type = eastern
@@ -316,6 +325,13 @@ tribe_becomes_monarchy_reform = {
 				NOT = { secondary_religion = sunni }
 				NOT = { secondary_religion = shiite }
 				NOT = { secondary_religion = ibadi }
+				NOT = { secondary_religion = catholic }
+				NOT = { secondary_religion = protestant }
+				NOT = { secondary_religion = hussite }
+				NOT = { secondary_religion = reformed }
+				NOT = { secondary_religion = anglican }
+				NOT = { secondary_religion = orthodox }
+				NOT = { secondary_religion = coptic }
 			}
 			change_technology_group = chinese
 			change_unit_type = chinese
@@ -352,7 +368,16 @@ tribe_becomes_republic_reform = {
 		if = {
 			limit = {
 				technology_group = nomad_group
-				religion_group = christian
+				OR = {
+					religion_group = christian
+					secondary_religion = catholic
+					secondary_religion = protestant
+					secondary_religion = hussite
+					secondary_religion = reformed
+					secondary_religion = anglican
+					secondary_religion = orthodox
+					secondary_religion = coptic
+				}
 			}
 			change_technology_group = eastern
 			change_unit_type = eastern
@@ -365,6 +390,13 @@ tribe_becomes_republic_reform = {
 				NOT = { secondary_religion = sunni }
 				NOT = { secondary_religion = shiite }
 				NOT = { secondary_religion = ibadi }
+				NOT = { secondary_religion = catholic }
+				NOT = { secondary_religion = protestant }
+				NOT = { secondary_religion = hussite }
+				NOT = { secondary_religion = reformed }
+				NOT = { secondary_religion = anglican }
+				NOT = { secondary_religion = orthodox }
+				NOT = { secondary_religion = coptic }
 			}
 			change_technology_group = chinese
 			change_unit_type = chinese
@@ -416,7 +448,16 @@ tribe_becomes_theocracy_reform = {
 		else_if = {
 			limit = {
 				technology_group = nomad_group
-				religion_group = christian
+				OR = {
+					religion_group = christian
+					secondary_religion = catholic
+					secondary_religion = protestant
+					secondary_religion = hussite
+					secondary_religion = reformed
+					secondary_religion = anglican
+					secondary_religion = orthodox
+					secondary_religion = coptic
+				}
 			}
 			change_technology_group = eastern
 			change_unit_type = eastern
@@ -429,6 +470,13 @@ tribe_becomes_theocracy_reform = {
 				NOT = { secondary_religion = sunni }
 				NOT = { secondary_religion = shiite }
 				NOT = { secondary_religion = ibadi }
+				NOT = { secondary_religion = catholic }
+				NOT = { secondary_religion = protestant }
+				NOT = { secondary_religion = hussite }
+				NOT = { secondary_religion = reformed }
+				NOT = { secondary_religion = anglican }
+				NOT = { secondary_religion = orthodox }
+				NOT = { secondary_religion = coptic }
 			}
 			change_technology_group = chinese
 			change_unit_type = chinese

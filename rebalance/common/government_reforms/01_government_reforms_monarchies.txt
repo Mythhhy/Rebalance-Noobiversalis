@@ -1254,8 +1254,8 @@ black_army_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
-		land_maintenance_modifier = -0.05
-		amount_of_banners = 0.1
+		merc_maintenance_modifier = -0.15
+		mercenary_discipline = 0.025
 		nobles_loyalty_modifier = -0.1
 	}
 	ai = {

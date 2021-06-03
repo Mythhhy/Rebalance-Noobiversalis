@@ -2950,6 +2950,7 @@ tur_janissary = {
 }
 
 hun_black_army = {
+	discipline = 0.05
 	land_forcelimit_modifier = -0.05
 	nobles_influence_modifier = -0.1
 }
@@ -8855,28 +8856,28 @@ overlord_military_mission = {
 
 # Religions
 harmonized_vajrayana = {
-	production_efficiency = 0.05
+	production_efficiency = 0.10
 	religion = yes
 }
 
 harmonized_buddhism = { #Theravada
-	advisor_cost = -0.05
+	advisor_cost = -0.10
 	religion = yes
 }
 
 harmonized_mahayana = {
-	idea_cost = -0.07
+	idea_cost = -0.10
 	religion = yes
 }
 
 harmonized_shinto = {
-	infantry_power = 0.05
+	infantry_power = 0.10
 	religion = yes
 }
 
 # Religion Groups
 harmonized_pagan = {
-	global_unrest = -0.5
+	global_unrest = -1
 	religion = yes
 }
 
@@ -8896,12 +8897,12 @@ harmonized_dharmic = {
 }
 
 harmonized_muslim = {
-	trade_efficiency = 0.05
+	trade_efficiency = 0.10
 	religion = yes
 }
 
 harmonized_christian = {
-	stability_cost_modifier = -0.05
+	stability_cost_modifier = -0.10
 	religion = yes
 }
 

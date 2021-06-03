@@ -968,8 +968,6 @@ colonial_government = {
 		recover_army_morale_speed = 0.02
 		embracement_cost = -0.1
 		governing_capacity = 100
-		#Loyalty buff
-		liberty_desire = -30
 	}
 
 	custom_attributes = {
@@ -1052,10 +1050,7 @@ cossacks_reform = {
 	potential = {
 		OR = {
 			AND = {
-				OR = {
-					tag = ZAZ
-					tag = LIT
-				}
+				tag = ZAZ
 				NOT = { map_setup = map_setup_random }
 			}
 			has_reform = cossacks_reform
@@ -1081,11 +1076,10 @@ cossacks_reform = {
 	nation_designer_cost = 60
 
 	modifiers = {
-		candidate_random_bonus = 2
 		cavalry_power = 0.2
 		cavalry_cost = -0.2
 		cav_to_inf_ratio = 0.2
-		governing_capacity = 150
+		governing_capacity = 50
 		max_absolutism = -40
 	}
 	duration = 4
