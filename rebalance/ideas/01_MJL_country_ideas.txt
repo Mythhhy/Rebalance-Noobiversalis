@@ -1,0 +1,89 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+### Nation specific idea groups
+
+CHW_ideas = {
+	start = {
+		land_maintenance_modifier = -0.1
+		adm_tech_cost_modifier = -0.1
+	}
+	
+	bonus = {
+		hostile_attrition = 1.5
+	}	
+
+	trigger = {
+		tag = CHW
+	}
+	free = yes
+	
+	chw_abysynnian_ancestry = {
+		advisor_pool = 1
+		shock_damage_received = -0.10
+	}
+	chw_sacred_cow = {
+		stability_cost_modifier = -0.15
+	}
+	chw_goldmine_economy = {
+		inflation_reduction = 0.1
+	}
+	chw_empire_of_moon = {
+		discipline = 0.075
+	}
+	chw_batembuzi_heritage = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+	}
+	chw_two_kings = {
+		monarch_admin_power = 1
+	}
+	chw_populate_jungles = {
+		development_cost = -0.1
+	}
+}
+
+GZW_ideas = {
+	start = {
+		hostile_attrition = 1.5 
+		inflation_reduction = 0.1
+	}
+	
+	bonus = {
+		land_morale = 0.16
+		global_manpower_modifier = 0.1
+	}	
+
+	trigger = {
+		tag = GZW
+	}
+	free = yes
+	
+	GZW_gold_mines = {
+		advisor_cost = -0.10
+	}
+	GZW_well_connected = {
+		tolerance_heathen = 3
+	}
+	GZW_trade = {
+		trade_efficiency = 0.10
+	}
+	GZW_strong_rulling= {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+	}
+	GZW_szyna_diplo = {
+		monarch_diplomatic_power = 1
+	}
+	GZW_a_lot__of_man_to_die = {
+		manpower_recovery_speed = 0.18
+		land_maintenance_modifier = -0.05
+	}
+	GZW_break_walls = {
+		leader_siege = 1
+		siege_ability = 0.12
+	}
+}
