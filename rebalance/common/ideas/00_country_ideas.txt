@@ -15292,6 +15292,7 @@ CYI_ideas = {
 		legitimacy = 1
 		devotion = 1
 		prestige = 1
+		horde_unity = 1
 	}
 	CYI_7 = {
 		land_morale = 0.2
