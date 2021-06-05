@@ -2156,12 +2156,12 @@ MJZ_ideas = {
 
 MCH_ideas = {
 	start = {
-		leader_land_shock = 1	
+		land_morale = 0.1
 		land_maintenance_modifier = -0.05
 	}
 	
 	bonus = {
-		land_morale = 0.15	
+		land_morale = 0.05	
 	}
 	
 	trigger = {
@@ -2175,6 +2175,7 @@ MCH_ideas = {
 	}
 	manchu_eight_banners = {
 		amount_of_banners = 0.25
+		leader_land_shock = 1
 	}
 	the_manchu_alphabet = {
 		global_institution_spread = 0.05
