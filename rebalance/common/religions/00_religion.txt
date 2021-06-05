@@ -39,7 +39,7 @@ christian = {
 		
 		on_convert = {
 			change_religion = catholic
-			add_prestige = -50
+			add_prestige = -100
 			
 			remove_country_modifier = the_test_act
 			remove_country_modifier = superintendent_office
@@ -441,7 +441,7 @@ christian = {
 
 		on_convert = {
 			change_religion = protestant
-			add_prestige = -50
+			add_prestige = -100
 			remove_country_modifier = counter_reformation
 			remove_country_modifier = the_statue_in_restraint_of_appeals
 			remove_country_modifier = revocation_of_restraint_of_appeals
@@ -561,7 +561,7 @@ christian = {
 		
 		on_convert = {
 			change_religion = reformed
-			add_prestige = -50
+			add_prestige = -100
 			remove_country_modifier = counter_reformation
 			remove_country_modifier = the_statue_in_restraint_of_appeals
 			remove_country_modifier = revocation_of_restraint_of_appeals
@@ -1221,7 +1221,7 @@ eastern = {
 			diplomats = 1
 		}
 		on_convert = {
-			add_prestige = -50
+			add_prestige = -100
 			add_stability = -1
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1254,7 +1254,7 @@ eastern = {
 			tolerance_own = 1
 		}
 		on_convert = {
-			add_prestige = -50
+			add_prestige = -100
 			add_stability = -1
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1287,7 +1287,7 @@ eastern = {
 			tolerance_heathen = 2
 		}
 		on_convert = {
-			add_prestige = -50
+			add_prestige = -100
 			add_stability = -1
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1373,7 +1373,7 @@ dharmic = {
 		
 		on_convert = {
 			change_religion = hinduism
-			add_prestige = -50
+			add_prestige = -100
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1408,7 +1408,7 @@ dharmic = {
 		
 		on_convert = {
 			change_religion = sikhism
-			add_prestige = -50
+			add_prestige = -100
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
