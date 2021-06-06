@@ -1,0 +1,37 @@
+# Change Muslim School:
+change_school_modifier = {
+	# Nothing is needed here
+}
+
+# Hormuz:
+tamed_the_desert_modifier = {
+	local_development_cost = -0.15
+}
+the_way_to_god_modifier = {
+	monthly_piety = -0.001
+}
+
+# Qara Qoyunlu:
+cavarly_focused_society_modifier = {
+	cavalry_cost = -0.1
+	cavalry_flanking = 0.10
+}
+unite_the_turks_modifier = {
+	num_accepted_cultures = 1
+	same_culture_advisor_cost = -0.07
+	culture_conversion_cost = -0.1
+}
+egypt_under_new_management_modifier = {
+	local_state_maintenance_modifier = 0.33
+	local_unrest = 3
+	min_local_autonomy = 50
+	local_production_efficiency = 1
+}
+subjugate_the_bedouins_modifier = {
+	local_autonomy = -0.1
+}
+royal_road_modifier = {
+	supply_limit_modifier = 0.15
+	local_friendly_movement_speed = 0.15
+	local_hostile_movement_speed = 0.15
+}
