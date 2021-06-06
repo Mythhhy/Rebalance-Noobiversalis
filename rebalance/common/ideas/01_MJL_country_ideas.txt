@@ -45,48 +45,6 @@ CHW_ideas = {
 	}
 }
 
-AFR_ideas = {
-	start = {
-		hostile_attrition = 1.5
-		prestige = 1
-	}
-	
-	bonus = {
-		manpower_recovery_speed = 0.25
-	}	
-
-	trigger = {
-		tag = AFR
-	}
-	free = yes
-	
-	AFR_jungle_law = {
-		global_colonial_growth = 15
-		may_explore = yes
-	}
-	AFR_boss_hog_cavalry = {
-		leader_land_shock = 2
-		fire_damage = 0.1
-	}
-	AFR_banana_industry = {
-		production_efficiency = 0.1
-		build_cost = -0.05
-	}
-	AFR_apes_together = {
-		discipline = 0.075
-	}
-	AFR_poop_infused_cannon = {
-		backrow_artillery_damage = 0.2
-	}
-	AFR_rains_down_in_africa = {
-		global_trade_goods_size_modifier = 0.2
-	}
-	AFR_life_in_treetops = {
-		movement_speed = 0.15
-		development_cost = -0.05
-	}
-}
-
 GZW_ideas = {
 	start = {
 		hostile_attrition = 1.5 

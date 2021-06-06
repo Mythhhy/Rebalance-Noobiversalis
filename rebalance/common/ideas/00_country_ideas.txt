@@ -2156,7 +2156,7 @@ MJZ_ideas = {
 
 MCH_ideas = {
 	start = {
-		land_morale = 0.1	
+		land_morale = 0.1
 		land_maintenance_modifier = -0.05
 	}
 	
@@ -15255,7 +15255,6 @@ QIC_ideas = {
 		monarch_diplomatic_power = 1
 	}
 }
-
 
 CYI_ideas = {
 	start = {
